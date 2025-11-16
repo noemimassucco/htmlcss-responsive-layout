@@ -12,12 +12,20 @@
  font-size: 20px;
 
 }
-
+@media screen and (min-width: 786px)
+{
+    .container-list ul {
+        display: flex;
+        flex-wrap: wrap ;
+    gap:3rem;
+    }
+}
 
 main {
     background-color: lightgrey;
-    height: 500px;
+
 }
+
 
 .category-food-section{ 
     color: rgb(25, 0, 255);
@@ -39,5 +47,20 @@ h1 {
 
 .font-bold {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
+}
+img {
+    max-width: 100%;
+    padding-left: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-list {
+    background-color: white;
+}
+.padding-left {
+    padding-left: 1rem;
 }
