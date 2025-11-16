@@ -23,7 +23,8 @@
 
 main {
     background-color: lightgrey;
-
+height: 900px;
+padding: 1rem;
 }
 
 
@@ -51,16 +52,26 @@ h1 {
 }
 img {
     max-width: 100%;
-    padding-left: 1rem;
+    display: block;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 3rem;
+
+}
+li{ 
+    margin-bottom: 1.50rem;
 }
 
-.container-list {
+.container-box {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
 }
 .padding-left {
     padding-left: 1rem;
 }
+
