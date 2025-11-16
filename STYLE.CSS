@@ -115,4 +115,15 @@ li{
     .social-name {
         display: inline-block;
     }
-}
+ .container-box {
+ flex-direction: row;
+ align-items: flex-start;
+ gap: 2rem;
+ }
+ .container-list ul{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ }
+
+ 
