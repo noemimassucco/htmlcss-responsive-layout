@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo-booelano
+{ 
+    color: orange;
+
+ font-weight: bold;
+ font-size: 20px;
+
+}
+
+
+main {
+    background-color: lightgrey;
+    height: 500px;
+}
+
+.category-food-section{ 
+    color: rgb(25, 0, 255);
+}
+
+.padding{
+    padding: 1rem;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content{
+  justify-content: center;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.font-bold {
+    font-weight: bold;
+    font-size: 20px;
+}
