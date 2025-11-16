@@ -19,6 +19,9 @@
         flex-wrap: wrap ;
     gap:3rem;
     }
+    .icone-social {
+        padding: 0.5rem 3rem;
+    }
 }
 
 main {
@@ -70,8 +73,46 @@ li{
     flex-direction: column;
     gap: 1rem;
     margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .padding-left {
     padding-left: 1rem;
 }
+.cont-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    background-color: lightgrey;
+}
 
+.social-link {
+    text-decoration: none;
+}
+
+.icone-social {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: white;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.social-name {
+    display: none;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.icone-social img {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .social-name {
+        display: inline-block;
+    }
+}
