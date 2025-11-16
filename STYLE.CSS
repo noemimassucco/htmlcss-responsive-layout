@@ -26,7 +26,7 @@
 
 main {
     background-color: lightgrey;
-height: 900px;
+height: 1300px;
 padding: 1rem;
 }
 
@@ -125,5 +125,19 @@ li{
  flex-direction: column;
  justify-content: center;
  }
-
+main {
+    padding: 5rem;
+}
+}
  
+hr{
+color:orange;
+margin-right: 10PX;}
+
+
+.img-tiramisù {
+    width: 40%;    
+    height: auto;   
+    display: block;
+    margin: 0 auto;
+}
